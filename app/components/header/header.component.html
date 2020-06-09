@@ -1,0 +1,21 @@
+<header>
+	<div class="page_wrap">
+		<a routerLink="/" routerLinkActive="active" class="logoSite">
+			<img src="/compiled/img/logo-2.1.svg" class="svg" alt="Webking Studio Logo">
+		</a>
+		<div class="sandwich animate">
+			<div class="piece top"></div>
+			<div class="piece middle"></div>
+			<div class="piece bottom"></div>
+		</div>
+		<nav class="header_navigation header_navigation_js">
+			<ul>
+				<li *ngFor="let item of mainMenu">
+					<span class="show">
+						<a routerLink="{{item.link}}" routerLinkActive="active">{{item.title}}</a><a href="#"></a>
+					</span>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>

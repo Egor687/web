@@ -1,0 +1,1 @@
+window.location = window.location.protocol + "//" + window.location.host + "/webking_offline.html";

@@ -1,0 +1,78 @@
+@import '_variables.scss';
+@import '_reset.scss';
+@import '_normalize.scss';
+@import '_grid.scss';
+
+@mixin animate($duration){
+	-webkit-transition: all $duration cubic-bezier(.4,0,.2,1);
+	-o-transition: all $duration cubic-bezier(.4,0,.2,1);
+	transition: all $duration cubic-bezier(.4,0,.2,1);
+}
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=passwd],
+textarea{
+	border-radius: .2em;
+	border: 0;
+	outline: 0;
+	line-height: 40px;
+	padding: 0 $gap;
+}
+.hidden{
+	display: none !important;
+}
+.dark_style{
+	background: #2e3034;
+	color: #fff;
+}
+.light_style{
+	background-color: $white;
+	color: $spacegray;
+}
+//BUTTONS
+.accent_button{
+	background-color: $accent;
+	color: $white;
+	border-radius: .2em;
+	border: 0;
+	outline: 0;
+	line-height: 40px;
+	padding: 0 $gap;
+	cursor: pointer;
+	&:hover{
+		background-color: lighten($accent, 5);
+	}
+}
+.no_accent_button{
+	color: $white;
+	border: 1px solid $white;
+	border-radius: .2em;
+	outline: 0;
+	padding: 0 $gap;
+	cursor: pointer;
+	@include animate(.4s);
+	&:hover{
+		background-color: $accent;
+	}
+}
+.show_more{
+	margin: $gap 0;
+	button{
+		margin: 0 auto;
+		display: block;
+	}
+}
+.apple_images{
+	display: flex;
+	.project_image{
+		max-width: 33%;
+		max-height: 200px;
+	}
+}

@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>PIZZERIA DA PERSIO</title>
+	<script src="assets/jquery-3.1.1.min.js"></script>
+	<script src="assets/owl.carousel/owl.carousel.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="assets/icomoon.css">
+	<link rel="stylesheet" href="assets/owl.carousel/owl.carousel.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<span class="glyphicons glyphicons-plus"></span>
+	<header>
+		<div class="container-fluid">
+			<div class="container">
+				<a href="#" class="header__logo">pizzeria da persio</a>
+				<p class="header__subtext">Quer str. 35, 63065 Offenbach<br>06980104851</p>
+			</div>
+		</div>
+		<div class="header__menu">
+			<div class="container">
+				<div class="header__menu__working-hours">
+					<div class="header__menu__icon">
+						<img src="img/footer_clock.png" alt="">
+					</div>
+					<span>12:00-22:30 Uhr</span> <!-- class="hidden-xs hidden-sm" -->
+				</div>
+				<div class="header__menu__cart">
+					<div class="header__menu__icon">
+						<img src="img/header_cart.png" alt="">
+					</div>
+					<span>Cart (2)</span> <!-- class="hidden-xs hidden-sm" -->
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-title">Advantages</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="advantages clearfix">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-xs-4 col-md-2 col-md-offset-2 col-xs-offset-0">
+							<div class="advantages__icon">
+								<img src="img/advantages_tomato.png">
+							</div>
+							<div class="advantages__text">Fresh ingredients</div>
+						</div>
+						<div class="col-xs-4 col-md-2 col-md-offset-1 col-xs-offset-0">
+							<div class="advantages__icon">
+								<img src="img/advantages_thumb.png">
+							</div>
+							<div class="advantages__text">New tastes</div>
+						</div>
+						<div class="col-xs-4 col-md-2 col-md-offset-1 col-xs-offset-0">
+							<div class="advantages__icon">
+								<img src="img/advantages_car.png">
+							</div>
+							<div class="advantages__text">Fast delivery</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu">
+		<img src="img/menu_pizza_slice.png" class="menu__pizza-slice">
+		<img src="img/menu_tomato.png" class="menu__tomato">
+		<img src="img/menu_rosemary.png" class="menu__rosemary">
+		<img src="img/menu_pepper.png" class="menu__pepper1">
+		<img src="img/menu_pepper.png" class="menu__pepper2">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-title">Menü</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="menu__categories menu__owl-carousel">
+							<div class="menu__categories__item">angebote</div>
+							<div class="menu__categories__item">salate</div>
+							<div class="menu__categories__item menu__categories__item_active">pizzen</div>
+							<div class="menu__categories__item">spaghetti</div>
+							<div class="menu__categories__item">tagliatelle</div>
+							<div class="menu__categories__item">rigatoni</div>
+							<div class="menu__categories__item">tortellini</div>
+							<div class="menu__categories__item">gnocchi</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<ul class="menu__list">
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Pizzabrot</div>
+								<div class="menu__list__item__composition"></div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 4</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Mozzarella</div>
+								<div class="menu__list__item__composition">mit Mozzarella, Schinken und Pilzen</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 6</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Margherita</div>
+								<div class="menu__list__item__composition">mit Oliven</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 4</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Pescatore</div>
+								<div class="menu__list__item__composition">mit Schtimps, hunfisch, Knoblauch, Sardellen und Muscheln</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 6,50 <div class="buy-block__price-tag__new-price">€ 4,50 </div></div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Pizza Napoli</div>
+								<div class="menu__list__item__composition">mit Schinken</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 5</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Pizza Tonno</div>
+								<div class="menu__list__item__composition">mit Thunfisch und Zwiebeln</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 6</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Salami</div>
+								<div class="menu__list__item__composition">mit Salaimi</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 4</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Chef</div>
+								<div class="menu__list__item__composition">mit allem</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 4</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Pizza alla Panna</div>
+								<div class="menu__list__item__composition">mit Schinken und Sahne</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 5,50</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Capricciosa</div>
+								<div class="menu__list__item__composition">mit Schnken, Pilzen, Paprika und Zwiebeln</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 6</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Broccoli</div>
+								<div class="menu__list__item__composition">mit Broccoli, Schinken, und Knoblauch </div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 5,50</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Quattro Stagioni</div>
+								<div class="menu__list__item__composition">mit Salami, Schincken, Pilzen und Aritischocken</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 6</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Vegetaria</div>
+								<div class="menu__list__item__composition">mit Champignons, Paprika und Zwiebeln</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 5,50</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Calzone</div>
+								<div class="menu__list__item__composition">Pizzatasche mit Schinken, Salami und Pilzen</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 6,50</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Prima Vera</div>
+								<div class="menu__list__item__composition">mit Schinken und Pilzen</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 5,50</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Bolognese</div>
+								<div class="menu__list__item__composition">mit Bolognese, Schinken und Zwiebeln</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 6,50</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Alla Panna</div>
+								<div class="menu__list__item__composition">mit Schinken und Sahne</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 5,50</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Huhn</div>
+								<div class="menu__list__item__composition">mit Hühnerfleich, Mais, Pilzen und Oliven</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 7</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">San Remo</div>
+								<div class="menu__list__item__composition">mit Salami und Pilzen</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 5,50</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Alaska</div>
+								<div class="menu__list__item__composition">mit Lachs, Scampi, Oliven, Peproni und Knoblauch</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 7</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Montana</div>
+								<div class="menu__list__item__composition">mit Schinken, Salami, Peproni und Mais</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 6</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+						<div class="col-md-6 col-xs-12">
+							<li class="menu__list__item">
+								<div class="menu__list__item__name">Quattro Formaggi</div>
+								<div class="menu__list__item__composition">mit Mozzarella, Schafskäse, Gorgonzola und Edamer</div>
+								<div class="menu__list__buy-block buy-block">
+									<div class="buy-block__size">
+										<div class="dropdown">
+											<span class="dropdown-toggle" type="button" data-toggle="dropdown"><span class="selected-size">45x32 cm</span><span class="icon-keyboard_arrow_down"></span></span>
+											<ul class="dropdown-menu">
+												<li><a href="#">28 cm</a></li>
+												<li><a href="#">32 cm</a></li>
+												<li><a href="#">45x32 cm</a></li>
+												<li><a href="#">60x40 cm</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="buy-block__price-tag">€ 6,50</div>
+									<div class="buy-block__quantity">
+										<span class="buy-block__quantity-handler icon-remove"></span>
+										<input class="buy-block__quantity-input" type="text" value="1">
+										<span class="buy-block__quantity-handler icon-add"></span>
+									</div>
+									<button class="buy-block__buy-button">Order</button>
+								</div>
+							</li>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="feedback">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-title">happy clients</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-10 col-md-offset-1">
+					<div class="owl-carousel feedback__carousel">
+						<div>
+							<img class="feedback__client" src="img/feedback_client.png" alt="">
+							<div class="feedback__name">anastasiya miller</div>
+							<div class="feedback__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+						</div>
+						<div>
+							<img class="feedback__client" src="img/feedback_client.png" alt="">
+							<div class="feedback__name">anastasiya miller</div>
+							<div class="feedback__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+						</div>
+						<div>
+							<img class="feedback__client" src="img/feedback_client.png" alt="">
+							<div class="feedback__name">anastasiya miller</div>
+							<div class="feedback__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-4">
+					<a href="#" class="footer__logo">Pizzeria da persio</a>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-4">
+					<div class="footer__contacts">Quer str. 35, 63065 Offenbach<br>06980104851</div>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-4 col-md-offset-0">
+					<div class="footer__working-hours">
+						<img src="img/footer_clock.png" alt="">	12:00-22:30 Uhr
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="proposal">
+		<a href="#" class="proposal__close icon-close"></a>
+		<div class="section-title">proposal of the day</div>
+		<div class="proposal__body">
+			<div class="proposal__body__image">
+				<img src="img/proposal_pizza.png" alt="">
+			</div>
+			<div class="proposal__body__description">
+				<div class="proposal__body__description__price-tag">€ 4</div>
+				<div class="proposal__body__description__category">PIZZEN<br>(Alle Pizzen mit Tomatensouse und Käse 30 cm)</div>
+				<div class="proposal__body__description__name">Margherita</div>
+				<div class="proposal__body__description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				<div class="proposal__body__buy-block buy-block">
+					<span class="buy-block__quantity-handler icon-remove"></span>
+					<input class="buy-block__quantity-input" type="text" value="2">
+					<span class="buy-block__quantity-handler icon-add"></span>
+					<button class="buy-block__buy-button">Order</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$(".owl-carousel").owlCarousel({
+				items: 1,
+				nav: true,
+				navText: ['<img src="img/feedback_left.png">','<img src="img/feedback_right.png">']
+			});
+			$(".menu__owl-carousel").owlCarousel({
+				// items: 1,
+				responsive: {
+					0 : {
+						items: 1,
+					},
+					480 : {
+						items: 3,
+					},
+					768 : {
+						items: 5,
+					},
+					// breakpoint from 768 up
+					992 : {
+						items: 8,
+					}
+				},
+				nav: true,
+				navText: ['<img src="img/feedback_left.png">','<img src="img/feedback_right.png">']
+			});
+			$('html').mouseleave(function(event) {
+				$('.proposal:not(.showed)').addClass('opened showed');
+			});
+			$('.proposal').find('.proposal__close').on('click', function(e){
+				e.preventDefault();
+				$(this).closest('.proposal').removeClass('opened');
+			});
+			$('.buy-block__size .dropdown-menu a').on('click', function(e){
+				e.preventDefault();
+				$(this).closest('.dropdown').find('.selected-size').html($(this).html());
+			});
+			$('body').on('click', '.menu__categories__item:not(.menu__categories__item_active)', function(e){
+				e.preventDefault();
+				$(this).closest('.menu__categories').find('.menu__categories__item').removeClass('menu__categories__item_active');
+				$(this).addClass('menu__categories__item_active');
+			});
+		});
+	</script>
+</body>
+</html>
