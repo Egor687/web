@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var _jquery_1 = require('@jquery');
+var core_1 = require("@angular/core");
+var _jquery_1 = require("@jquery");
 var ContactsComponent = (function () {
     function ContactsComponent($) {
         this.$ = $;
@@ -21,16 +21,16 @@ var ContactsComponent = (function () {
     ContactsComponent.prototype.ngOnInit = function () {
         this.$.scrollTop();
     };
-    ContactsComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'my-contacts',
-            templateUrl: './contacts.component.html'
-        }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof _jquery_1.JQ !== 'undefined' && _jquery_1.JQ) === 'function' && _a) || Object])
-    ], ContactsComponent);
     return ContactsComponent;
-    var _a;
 }());
+ContactsComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'my-contacts',
+        templateUrl: './contacts.component.html'
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof _jquery_1.JQ !== "undefined" && _jquery_1.JQ) === "function" && _a || Object])
+], ContactsComponent);
 exports.ContactsComponent = ContactsComponent;
+var _a;
 //# sourceMappingURL=contacts.component.js.map

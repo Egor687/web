@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var _jquery_1 = require('@jquery');
+var core_1 = require("@angular/core");
+var _jquery_1 = require("@jquery");
 var ServicesComponent = (function () {
     function ServicesComponent($) {
         this.$ = $;
@@ -34,15 +34,15 @@ var ServicesComponent = (function () {
                     }
                 });
             };
-            this.activate = function (obj) {
-                this.deactivate();
-                $(obj).closest('li').addClass('active');
-            };
-            this.deactivate = function () {
-                this.handlers.each(function () {
-                    $(this).closest('li').removeClass('active');
-                });
-            };
+            // this.activate = function(obj){
+            //   this.deactivate();
+            //   $(obj).closest('li').addClass('active');
+            // }
+            // this.deactivate = function(){
+            //   this.handlers.each(function(){
+            //     $(this).closest('li').removeClass('active');
+            //   });
+            // }
         }
         var spy = new ScrollSpy($('#magic_scroll'));
         $(window).scroll(function () {
@@ -52,17 +52,17 @@ var ServicesComponent = (function () {
     ServicesComponent.prototype.ngOnDestroy = function () {
         $(window).unbind();
     };
-    ServicesComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'my-services',
-            templateUrl: './services.component.html',
-            providers: [_jquery_1.JQ]
-        }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof _jquery_1.JQ !== 'undefined' && _jquery_1.JQ) === 'function' && _a) || Object])
-    ], ServicesComponent);
     return ServicesComponent;
-    var _a;
 }());
+ServicesComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'my-services',
+        templateUrl: './services.component.html',
+        providers: [_jquery_1.JQ]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof _jquery_1.JQ !== "undefined" && _jquery_1.JQ) === "function" && _a || Object])
+], ServicesComponent);
 exports.ServicesComponent = ServicesComponent;
+var _a;
 //# sourceMappingURL=services.component.js.map

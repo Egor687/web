@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var _jquery_1 = require('@jquery');
+var core_1 = require("@angular/core");
+var _jquery_1 = require("@jquery");
 var PortfolioComponent = (function () {
     function PortfolioComponent($) {
         this.$ = $;
@@ -17,16 +17,16 @@ var PortfolioComponent = (function () {
     PortfolioComponent.prototype.ngOnInit = function () {
         this.$.scrollTop();
     };
-    PortfolioComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'my-portfolio',
-            templateUrl: './portfolio.component.html'
-        }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof _jquery_1.JQ !== 'undefined' && _jquery_1.JQ) === 'function' && _a) || Object])
-    ], PortfolioComponent);
     return PortfolioComponent;
-    var _a;
 }());
+PortfolioComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'my-portfolio',
+        templateUrl: './portfolio.component.html'
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof _jquery_1.JQ !== "undefined" && _jquery_1.JQ) === "function" && _a || Object])
+], PortfolioComponent);
 exports.PortfolioComponent = PortfolioComponent;
+var _a;
 //# sourceMappingURL=portfolio.component.js.map

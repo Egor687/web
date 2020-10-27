@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
+var core_1 = require("@angular/core");
+var router_1 = require("@angular/router");
 var LitelifeComponent = (function () {
     function LitelifeComponent(router, elRef) {
         this.router = router;
@@ -18,15 +18,15 @@ var LitelifeComponent = (function () {
     LitelifeComponent.prototype.ngOnInit = function () {
         jQuery('body').scrollTop(0);
     };
-    LitelifeComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'my-litelife',
-            templateUrl: './litelife.component.html'
-        }), 
-        __metadata('design:paramtypes', [router_1.Router, core_1.ElementRef])
-    ], LitelifeComponent);
     return LitelifeComponent;
 }());
+LitelifeComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'my-litelife',
+        templateUrl: './litelife.component.html'
+    }),
+    __metadata("design:paramtypes", [router_1.Router, core_1.ElementRef])
+], LitelifeComponent);
 exports.LitelifeComponent = LitelifeComponent;
 //# sourceMappingURL=litelife.component.js.map

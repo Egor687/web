@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 var BannerComponent = (function () {
     function BannerComponent(elRef) {
         this.elRef = elRef;
@@ -28,14 +28,14 @@ var BannerComponent = (function () {
             });
         });
     };
-    BannerComponent = __decorate([
-        core_1.Component({
-            selector: 'owl-banner',
-            templateUrl: 'app/components/owl_banner/banner.component.html',
-        }), 
-        __metadata('design:paramtypes', [core_1.ElementRef])
-    ], BannerComponent);
     return BannerComponent;
 }());
+BannerComponent = __decorate([
+    core_1.Component({
+        selector: 'owl-banner',
+        templateUrl: 'app/components/owl_banner/banner.component.html',
+    }),
+    __metadata("design:paramtypes", [core_1.ElementRef])
+], BannerComponent);
 exports.BannerComponent = BannerComponent;
 //# sourceMappingURL=banner.component.js.map

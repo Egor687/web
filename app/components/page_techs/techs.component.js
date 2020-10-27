@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var _jquery_1 = require('@jquery');
+var core_1 = require("@angular/core");
+var _jquery_1 = require("@jquery");
 var TechsComponent = (function () {
     function TechsComponent($) {
         this.$ = $;
@@ -17,16 +17,16 @@ var TechsComponent = (function () {
     TechsComponent.prototype.ngOnInit = function () {
         this.$.scrollTop();
     };
-    TechsComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'my-techs',
-            templateUrl: './techs.component.html',
-        }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof _jquery_1.JQ !== 'undefined' && _jquery_1.JQ) === 'function' && _a) || Object])
-    ], TechsComponent);
     return TechsComponent;
-    var _a;
 }());
+TechsComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'my-techs',
+        templateUrl: './techs.component.html',
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof _jquery_1.JQ !== "undefined" && _jquery_1.JQ) === "function" && _a || Object])
+], TechsComponent);
 exports.TechsComponent = TechsComponent;
+var _a;
 //# sourceMappingURL=techs.component.js.map

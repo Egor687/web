@@ -690,6 +690,7 @@ body{
 					}
 				}
 			}
+
 			.technologies_wrap{
 				.owl_techn{
 					.owl-controls{
@@ -975,6 +976,7 @@ body{
 				}
 			}
 		}
+		.services_wrap,
 		&.services_page{
 			max-width: 100%;
 			margin: 0px;
@@ -1070,7 +1072,7 @@ body{
 							position: relative;
 							// margin: $gap 0;
 							width: 100%;
-							height: 480px;
+							height: 600px;
 							display: none;
 							text-align: left;
 							background: lighten($spacegray, 10);
@@ -1114,7 +1116,8 @@ body{
 									text-align: justify;
 								}
 								img {
-									max-width: 100%;
+									max-width: 30%;
+									align: left;
 								}
 							}
 							/* активный блок при загрузке */

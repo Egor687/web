@@ -33,15 +33,15 @@ export class ServicesComponent implements OnInit{
 		      }
 		    });
 		  }
-		  this.activate = function(obj){
-		    this.deactivate();
-		    $(obj).closest('li').addClass('active');
-		  }
-		  this.deactivate = function(){
-		    this.handlers.each(function(){
-		      $(this).closest('li').removeClass('active');
-		    });
-		  }
+		  // this.activate = function(obj){
+		  //   this.deactivate();
+		  //   $(obj).closest('li').addClass('active');
+		  // }
+		  // this.deactivate = function(){
+		  //   this.handlers.each(function(){
+		  //     $(this).closest('li').removeClass('active');
+		  //   });
+		  // }
 		}
 		var spy = new ScrollSpy($('#magic_scroll'));
 		$(window).scroll(function(){

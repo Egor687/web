@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
+var core_1 = require("@angular/core");
+var router_1 = require("@angular/router");
 var WpComponent = (function () {
     function WpComponent(router, elRef) {
         this.router = router;
@@ -18,15 +18,15 @@ var WpComponent = (function () {
     WpComponent.prototype.ngOnInit = function () {
         jQuery('body').scrollTop(0);
     };
-    WpComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'my-wp',
-            templateUrl: './wp.component.html'
-        }), 
-        __metadata('design:paramtypes', [router_1.Router, core_1.ElementRef])
-    ], WpComponent);
     return WpComponent;
 }());
+WpComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'my-wp',
+        templateUrl: './wp.component.html'
+    }),
+    __metadata("design:paramtypes", [router_1.Router, core_1.ElementRef])
+], WpComponent);
 exports.WpComponent = WpComponent;
 //# sourceMappingURL=wp.component.js.map

@@ -14,6 +14,7 @@ import { TechsComponent } from './components/page_techs/techs.component';
 import { AboutComponent } from './components/page_about/about.component';
 import { ContactsComponent } from './components/page_contacts/contacts.component';
 import { ServicesComponent } from './components/page_services/services.component';
+import { WebsiteComponent } from './components/page_website/website.component';
 import { BannerComponent } from './components/owl_banner/banner.component';
 import { OwlTechsComponent } from './components/owl_techs/owl_techs.component';
 import { MapComponent } from './components/map/map.component';
@@ -40,6 +41,7 @@ enableProdMode();
 		MainComponent,
 		PortfolioComponent,
 		ServicesComponent,
+		WebsiteComponent,
 		BannerComponent,
 		TechsComponent,
 		AboutComponent,

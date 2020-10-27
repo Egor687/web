@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
+var core_1 = require("@angular/core");
+var router_1 = require("@angular/router");
 var PizzeriaComponent = (function () {
     function PizzeriaComponent(router, elRef) {
         this.router = router;
@@ -18,15 +18,15 @@ var PizzeriaComponent = (function () {
     PizzeriaComponent.prototype.ngOnInit = function () {
         jQuery('body').scrollTop(0);
     };
-    PizzeriaComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'my-pizzeria',
-            templateUrl: './pizzeria_da_persio.component.html'
-        }), 
-        __metadata('design:paramtypes', [router_1.Router, core_1.ElementRef])
-    ], PizzeriaComponent);
     return PizzeriaComponent;
 }());
+PizzeriaComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'my-pizzeria',
+        templateUrl: './pizzeria_da_persio.component.html'
+    }),
+    __metadata("design:paramtypes", [router_1.Router, core_1.ElementRef])
+], PizzeriaComponent);
 exports.PizzeriaComponent = PizzeriaComponent;
 //# sourceMappingURL=pizzeria_da_persio.component.js.map

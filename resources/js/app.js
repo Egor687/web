@@ -199,5 +199,7 @@ function projects_filter(project_type, parent){
 		parent.find('.items_wrap > div.' + project_type).removeClass('hidden');
 	}
 }
-
+function ВВВВ() {
+	Console.log("hdhgfjksdhfj");
+}
 

@@ -8,13 +8,21 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 var HeaderComponent = (function () {
     function HeaderComponent() {
         this.mainMenu = [
+            //{
+            //	title: 'Портфолио',
+            //	link: '/portfolio'
+            //},
             {
-                title: 'Портфолио',
-                link: '/portfolio'
+                title: 'Маркетинг',
+                link: '/'
+            },
+            {
+                title: 'IT сервис',
+                link: '/4'
             },
             // {
             // 	title: 'Услуги',
@@ -25,19 +33,23 @@ var HeaderComponent = (function () {
             // 	link: '/techs'
             // },
             {
+                title: 'Написати в Viber',
+                link: '{{app?.}}viber://chat?number=+380958279022'
+            },
+            {
                 title: 'Контакты',
                 link: '/contacts'
             }
         ];
     }
-    HeaderComponent = __decorate([
-        core_1.Component({
-            selector: 'my-header',
-            templateUrl: 'app/components/header/header.component.html'
-        }), 
-        __metadata('design:paramtypes', [])
-    ], HeaderComponent);
     return HeaderComponent;
 }());
+HeaderComponent = __decorate([
+    core_1.Component({
+        selector: 'my-header',
+        templateUrl: 'app/components/header/header.component.html'
+    }),
+    __metadata("design:paramtypes", [])
+], HeaderComponent);
 exports.HeaderComponent = HeaderComponent;
 //# sourceMappingURL=header.component.js.map

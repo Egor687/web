@@ -9,10 +9,10 @@ export class FooterComponent {
 	footerLinks: any[]
 	constructor() {
 		this.footerLinks = [
-			{
-				title: 'Портфолио',
-				link: '/portfolio'
-			},
+			//{
+			//	title: 'Портфолио',
+			//	link: '/portfolio'
+			//},
 			// {
 			// 	title: 'Услуги',
 			// 	link: '/services'
